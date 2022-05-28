@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食特产</title>
+    <style>
+         *{padding: 0;margin: 0;}/*边距初始化  */
+    /* 整个头部及logo部分*/
+        #header{width: 100%;height: 75px;margin:0 auto;background-color: #95d9f7}
+        #logo{width: 400px;height: 75px;float:left;background: url("image/logo.png") no-repeat left botton;}
+        #r{float:right;}
+    /* 导航栏部分 */
+    #nav{width:100%;height: 40px;background:#0ea3cd;border: 0px;margin: auto;}
+        .navwrap{width:1000px;height: 40px;margin: 0 auto;}
+       .navwrap ul{width: 990px;height: 40px;margin:0;padding: 0 0 0 160px;list-style: none;}
+        .navwrap ul li {float: left;}
+        a{line-height: 40px;font-weight: bold; margin: 0 30px;color:white;text-decoration: none;}
+        a:link{color: white;}
+        a:hover{color: aquamarine;text-decoration: underline;}
+/* 中间部分 */
+        #main{width: 100%;height: 750px; background-color: aliceblue;text-align: center;}
+        h1{font-family: 隶书; color:#95d9f7;font-size: 40px; text-align: center;height: 50px;border-bottom: 4px solid #95d9f7;}
+        .imglist{
+            width: 100%;
+            margin: 10px;
+            list-style-type: none;
+        }
+
+        .imglist li{
+            width: 18%;
+            height: 200px;
+            float: left;
+            margin: 10px;
+            
+            position: relative;
+            transition: all 0.3s ease-in;
+        }
+
+        .imglist li:hover{
+            /* transform: scale(1.2); */
+            cursor: pointer;
+            transform: translateY(-10px);
+        }
+
+        .imglist li img{
+            width: 100%;
+            height: 200px;
+            border-radius: 15px;
+            
+        }
+
+        .imglist li p{
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            /* background-color: aliceblue; */
+            background-color: rgba(255, 255 , 255, 0.4);
+        }
+        /* 底部   */
+        .footer{margin-top: 10px;
+            background-color:#0ea3cd;
+            width: 100%;
+            height: 120px;
+            text-align: center;
+            color: white;
+            position: absolute;
+        }
+        .footer .footer-top{margin-top: 20px;}
+        .footer a{padding:  15px;}
+        .footer a:hover{color: aquamarine;text-decoration: underline;}
+        .footer p{color: #000000;  margin-top: 10px;}
+       
+    </style>
+    </head>
+    <body>
+       <!-- 头部  -->
+            <div id="header" class="page">
+                 <div id="logo">
+                     <img src="image/logo.png " height="75px" >
+                </div>
+                 <div id="r">
+                   <div > <a href="">设为首页</a></div>
+                    <div ><a href="">收藏本站</a></div>
+                </div>
+            </div>
+        <!-- 导航栏    -->
+            <div id="nav" >
+                <div class="navwrap">
+                    <ul >
+                         <li ><a href="index.html">首页</a></li>
+                         <li ><a href="jianjie.html">家乡简介</a></li>
+                         <li ><a href="fengjing.html">风景名胜</a></li>
+                         <li ><a href="meishi.html">美食特产</a></li>
+                         <li ><a href="diaocha.html">在线调查</a></li>
+                         <li ><a href="zhanzhang.html">站长简介</a></li>
+                         
+                    </ul>
+                </div>
+            </div> 
+      
+        <!-- 主体     -->
+            <div id="main"> 
+                <h1>美食特产</h1>  
+                <ul class="imglist">
+                    <li>
+                            <img src="image/xystg.gif" alt="">
+                            <p>旬阳狮头柑</p>
+                    </li>
+                    <li>
+                        <img src="image/xygz.gif" alt="">
+                        <p>旬阳拐枣</p>
+                    </li>
+                    <li>
+                        <img src="image/ysgzc.gif" alt="">
+                        <p>野生拐枣醋</p>
+                    </li>
+                    <li>
+                        <img src="image/shbdj.gif" alt="">
+                        <p>蜀河八大件</p>
+                    </li>
+                    <li>
+                        <img src="image/xyhsft.gif" alt="">
+                        <p>旬阳红薯粉条</p>
+                    </li>
+                    <li>
+                        <img src="image/xyhbx.gif" alt="">
+                        <p>旬阳荷包杏</p>
+                    </li>
+                    <li>
+                        <img src="image/lf.gif" alt="">
+                        <p>揽饭</p>
+                    </li>
+                    <li>
+                        <img src="image/lhmj.gif" alt="">
+                        <p>吕河蜜桔</p>
+                    </li>
+                    <li>
+                        <img src="image/mjpz.gif" alt="">
+                        <p>面筋皮子</p>
+                    </li>
+                    <li>
+                        <img src="image/jsbt.gif" alt="">
+                        <p>姜丝拌汤</p>
+                    </li>
+                    <li>
+                        <img src="image/lcm.jpeg" alt="">
+                        <p>两掺面</p>
+                    </li>
+                    <li>
+                        <img src="image/ybm.jpeg" alt="">
+                        <p>油包馍</p>
+                    </li>
+                    <li>
+                        <img src="image/sjb.jpg" alt="">
+                        <p>水晶饼</p>
+                    </li>
+                    <li>
+                        <img src="image/mdf.jpeg" alt="">
+                        <p>米儿豆腐</p>
+                    </li>
+                    <li>
+                        <img src="image/xylr.jpg" alt="">
+                        <p>旬阳腊肉</p>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- 底部 -->
+            <div class="footer">
+                <div class="footer-top">
+                   |<a href="http://www.xawl.edu.cn">西安文理学院</a>|
+                    <a href="https://www.baidu.com">百度</a> |
+                    <a href="https://www.sina.com.cn/">新浪网</a> |
+                    <a href="https://mail.qq.com/">QQ邮箱</a> |
+                    <a href="https://www.qq.com/">腾讯网</a> |
+                    
+                </div>
+                <p>
+                   ©Copyright 2022 物联网工程2002版权所有 | 西安ICP备25062002号-35
+                </p>
+            </div>
+        
+    
+    
+    </body>
+    </html>

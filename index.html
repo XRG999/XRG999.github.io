@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+         *{padding: 0;margin: 0;}/*边距初始化  */
+    /* 整个头部及logo部分*/
+        #header{width: 100%;height: 75px;margin:0 auto;background-color: #95d9f7}
+        #logo{width: 400px;height: 75px;float:left;background: url("image/logo.png") no-repeat left botton;}
+        #r{float:right;}
+    /* 导航栏部分 */
+    #nav{width:100%;height: 40px;background:#0ea3cd;border: 0px;margin: auto;}
+        .navwrap{width:1000px;height: 40px;margin: 0 auto;}
+       .navwrap ul{width: 990px;height: 40px;margin:0;padding: 0 0 0 160px;list-style: none;}
+        .navwrap ul li {float: left;}
+        a{line-height: 40px;font-weight: bold; margin: 0 30px;color:white;text-decoration: none;}
+        a:link{color: white;}
+        a:hover{color: aquamarine;text-decoration: underline;}
+    /* 大图   */
+        #picture{width: 100%;height: 450px;clear: both;}
+    /* 中间部分 */
+        /* 简介部分 */
+        #main{width: 100%;height: 320px;}
+        #left{width: 65%;height: 250px;float:left;line-height:1.5em;}
+        h1{color:#95d9f7;font-size: 18px;height: 36px;border-bottom: 2px solid #95d9f7;}
+        #jj{float:left;width:250px;height: 160px;}
+        .p1{letter-spacing: 2.5px;line-height: 2em;text-indent: 3em;}
+    /* 联系方式部分 */
+        #right{width: 29%;height: 250px;float: right;}
+       
+     /* 底部   */
+        .footer{margin-top: 10px;
+            background-color:#0ea3cd;
+            width: 100%;
+            height: 120px;
+            text-align: center;
+            color: white;
+            position: absolute;
+        }
+        .footer .footer-top{margin-top: 20px;}
+        .footer a{padding:  15px;}
+        .footer a:hover{color: aquamarine;text-decoration: underline;}
+        .footer p{color: #000000;  margin-top: 10px;}
+       
+    </style>
+    <script>
+         function load(){alert("欢迎来到我的网站！");}
+        function unload(){alert("欢迎下次光临！");}
+    </script>
+</head>
+<body onload="load();" onunload="unload();">
+   <!-- 头部  -->
+        <div id="header" class="page">
+             <div id="logo">
+                 <img src="image/logo.png " height="75px" >
+            </div>
+             <div id="r">
+               <div > <a href="">设为首页</a></div>
+                <div ><a href="">收藏本站</a></div>
+            </div>
+        </div>
+    <!-- 导航栏    -->
+        <div id="nav" >
+            <div class="navwrap">
+                <ul >
+                     <li ><a href="#">首页</a></li>
+                     <li ><a href="jianjie.html">家乡简介</a></li>
+                     <li ><a href="fengjing.html">风景名胜</a></li>
+                     <li ><a href="meishi.html">美食特产</a></li>
+                     <li ><a href="diaocha.html">在线调查</a></li>
+                     <li ><a href="zhanzhang.html">站长简介</a></li>
+                     
+                </ul>
+            </div>
+        </div> 
+    <!-- 大图 -->
+        <div id="picture">
+               <img src="image/xunyang.webp" width="100%" height="450px" border="0" >
+        </div>
+    <!-- 主体     -->
+        <div id="main">       
+            <div id="left">
+                <h1>简介：</h1>
+                <div>
+                   <img id="jj" src="image/jianjie.webp" border="0" > 
+                    <p class="p1">身处汉水之滨、旬河之畔的旬阳城，又称太极城。恒古洪荒，岁迁月移，处子般静置在陕南的一方沃土上。旬阳历史悠久，秦设旬关。县城地貌景观极为独特，一条婀娜多姿、蜿蜒流长的旬河环城270度流入汉江，犹如“S”型的旬河水将县城天然分成阴阳两鱼岛，与四周环立的8座山峰一道勾画出一幅形态逼真、惟妙惟肖的太极图，鬼斧神工般造就了中国一个神秘、神奇、神圣的八卦太极城。自古就有文人墨客这样来描绘她的壮美：“满城灯火列星案，一曲旬水绕太极”“灵山刻就天书字，旬水绘成太极图”“仞望俯瞰江河流、太极突现山城秀”“南望汉江、北镇旬河，江河锁钥旬阳城；东倚灵崖，西倚林园，秀丽妩媚太极城”
+                    </p>
+                </div>
+            </div>
+            <div id="right" >
+                <h1>联系我们</h1>               
+                <ul >
+                    <li>电话：123456</li>
+                    <br>
+                    <li>传真：123456</li>
+                    <br>
+                    <li>网址：xxxxx.com</li>
+                    <br>
+                    <li>邮箱：abc@qq.com</li>
+                    <br>
+                    <li>地址：陕西省安康市旬阳市</li>
+                    <br>
+                    <li>邮编：725721</li>                
+                </ul>
+                
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <div class="footer-top">
+               |<a href="http://www.xawl.edu.cn">西安文理学院</a>|
+                <a href="https://www.baidu.com">百度</a> |
+                <a href="https://www.sina.com.cn/">新浪网</a> |
+                <a href="https://mail.qq.com/">QQ邮箱</a> |
+                <a href="https://www.qq.com/">腾讯网</a> |
+                
+            </div>
+            <p>
+               ©Copyright 2022 物联网工程2002版权所有 | 西安ICP备25062002号-35
+            </p>
+        </div>
+    
+
+
+</body>
+</html>
